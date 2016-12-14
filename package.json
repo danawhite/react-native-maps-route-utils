@@ -1,7 +1,6 @@
-
 {
   "name": "react-native-maps-route-utils",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -15,6 +14,5 @@
   "peerDependencies": {
     "react-native": "^0.29.0",
     "react-native-windows": "^0.29.0"
-
   }
 }
