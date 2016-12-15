@@ -49,6 +49,7 @@ RCT_EXPORT_METHOD(getRouteDetails:(NSDictionary *)placemarks callback:(RCTRespon
             callback(@[successDict]);
         }
     }];
+}
     
-    @end
+@end
     
