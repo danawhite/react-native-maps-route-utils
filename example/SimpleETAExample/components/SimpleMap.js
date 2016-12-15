@@ -105,9 +105,8 @@ export default class SimpleMap extends Component{
                     // })
                 }
             })
-        })
+        });
 
-        console.log('litty again', result)
         return result;
     }
 

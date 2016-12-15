@@ -8,8 +8,6 @@ import {
     Animated
 } from 'react-native';
 
-import { colorForTopic } from '../common/BekonColors';
-
 export default class Avatar extends Component {
     constructor(props) {
         super(props);
