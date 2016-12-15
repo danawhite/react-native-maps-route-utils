@@ -1,5 +1,6 @@
 
 #import "RNMapsRouteUtils.h"
+#import "RCTLog.h"
 
 @implementation RNMapsRouteUtils
 
@@ -19,9 +20,7 @@ RCT_EXPORT_METHOD(getRouteDetails:(NSDictionary *)placemarks callback:(RCTRespon
     
     MKPlacemark *placemarkOne = [[MKPlacemark alloc] initWithCoordinate:CLLocationCoordinate2DMake(originLatitude, originLongitude)];
     MKPlacemark *placemarkTwo = [[MKPlacemark alloc] initWithCoordinate:CLLocationCoordinate2DMake(destinationLatitude, destinationLongitude)];
-    
-    RCTLog(@"placemark 1: %@", placemarkOne);
-    RCTLog(@"placemark 2: %@", placemarkTwo);
+
     
     MKMapItem *sourceMapItem = [[MKMapItem alloc] initWithPlacemark:placemarkOne];
     MKMapItem *destinationMapItem = [[MKMapItem alloc] initWithPlacemark:placemarkTwo];
@@ -49,7 +48,7 @@ RCT_EXPORT_METHOD(getRouteDetails:(NSDictionary *)placemarks callback:(RCTRespon
             callback(@[successDict]);
         }
     }];
-}
+
     
-@end
+    @end
     
