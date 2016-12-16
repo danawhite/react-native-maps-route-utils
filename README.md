@@ -1,7 +1,7 @@
 
 # react-native-maps-route-utils
 
-## Getting started
+React Native utility component for use with iOS Maps applications. This component gives you the ability to display distance as well as estimated travel time between two points within a routing application. 
 
 `$ npm install react-native-maps-route-utils --save`
 
