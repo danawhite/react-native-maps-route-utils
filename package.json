@@ -15,5 +15,9 @@
     "react-native": "^0.29.0",
     "react-native-windows": "^0.29.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danawhite/react-native-maps-route-utils"
+  },
   "dependencies": {}
 }
