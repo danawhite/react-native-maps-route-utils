@@ -1,6 +1,6 @@
 
 #import "RNMapsRouteUtils.h"
-#import "RCTLog.h"
+#import "<React/RCTLog.h>"
 
 @implementation RNMapsRouteUtils
 
@@ -39,7 +39,7 @@ RCT_EXPORT_METHOD(getRouteDetails:(NSDictionary *)placemarks callback:(RCTRespon
         }
         if ( ! error && [response routes] > 0) {
             MKRoute *route = [[response routes] objectAtIndex:0];
-            
+                
             NSDictionary *successDict =@{
                                          @"eta": [NSNumber numberWithDouble:route.expectedTravelTime],
                                          @"distance": [NSNumber numberWithDouble: route.distance]
@@ -48,7 +48,7 @@ RCT_EXPORT_METHOD(getRouteDetails:(NSDictionary *)placemarks callback:(RCTRespon
             callback(@[successDict]);
         }
     }];
-
+}
     
     @end
     

@@ -6,9 +6,9 @@
 //  Created by Dana White on 12/7/16.
 //  Copyright (c) 2016 Bright Ideas Digital, Inc.. All rights reserved. -
 //
-#import "RCTBridge.h"
-#import "RCTBridgeModule.h"
-#import "RCTEventDispatcher.h"
+#import "<React/RCTBridge.h>"
+#import "<React/RCTBridgeModule.h>"
+#import "<React/RCTEventDispatcher.h>"
 
 #import <CoreLocation/CLError.h>
 #import <CoreLocation/CLLocationManager.h>
